@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+<style>
+body {
+  color:white;
+  background-color: black;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+ }
+
+main {
+  flex: 1 0 auto;
+ }
+
+ img{
+  margin-left:20%;
+ }
+ 
+ .amazing {
+display : flex;
+justify-content: center;
+ }
+ 
+textarea{
+color:white; 
+}
+
+.spam {
+ cursor: pointer
+}
+
+button {
+ cursor: pointer
+}
+
+.expose{
+  background-color: white;
+    padding: 10px;
+    display: none;
+
+}
+
+span:hover + .expose {
+    color:black;
+    display: block;
+}
+ </style>
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+ <!-- Compiled and minified JavaScript -->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>  
+</head>
+<body>
+ <nav>
+  <div class="nav-wrapper grey amazing">
+   <a href="#" class="brand-logo"><i class="material-icons amazing">cloud</i>I have no friends app.</a>
+  <ul class="right hide-on-med-and-down">
+   <!--<li><a href="/about-me">About Me</a></li>-->
+   <!--<li><a href="/portfolio">Portfolio</a></li>-->
+   <!--<li><a href="/contact-me">Contact Me</a></li>-->
+  </ul>
+  </div>
+ </nav>
+ <div class="container">
+ <form action="/" method="POST">
+  <h2>Hello ! Loner !</h2>
+  <p>Enter your number here.</p>
+  <textarea id="numberHi" background="red" color="white" name="SMSnumber"></textarea>
+  <p>Enter what you wanna tell yourself to act like someone said it.</p>
+  <textarea id="SMShi" background="red" color="white" name="SMSmessage"></textarea>
+  <button id ="spam" type="submit">Submit</button>
+ </form>
+ <span>Hover over me for Ideas!</span>
+  <div class="expose">
+    <ol>
+         You are amazing.
+    </ol>
+     <ol>
+        Watchu up to friend.
+    </ol>
+     <ol>
+       How you been?
+    </ol>
+     <ol>
+        I miss you.
+    </ol>
+     <ol>
+        Keep your head up life improves.
+    </ol>
+      </div>
+ </div>
+
+<main></main>
+ 
+ <footer class="page-footer grey darken-4">
+ <!--<div class="row">-->
+ <!-- <div class="col l6 s12">-->
+   <h5 class="white-text">Our app was built to help lonley people out.There's time were your phone is dry and you have no one texting you or you may be feeling suicidal and you just need that one text to have you change your mind.Our app allows you to text yourself these things.</h5>
+<!--  </div>-->
+<!--</div>-->
+ <div class="footer-copyright">
+  <div class="container">
+   © 2018 SadlyLonleyMF
+   <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+  </div>
+</div>
+</footer>
+ 
+</body>
